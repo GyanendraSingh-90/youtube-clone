@@ -22,3 +22,4 @@ export const getChannelById = async (req, res) => {
   const channel = await Channel.findById(req.params.id).populate("videos");
   res.json(channel);
 };
+

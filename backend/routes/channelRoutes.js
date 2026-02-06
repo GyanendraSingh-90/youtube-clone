@@ -11,3 +11,4 @@ router.post("/", authMiddleware, createChannel);
 router.get("/:id", getChannelById);
 
 export default router;
+
