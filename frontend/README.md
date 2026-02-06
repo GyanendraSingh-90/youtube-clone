@@ -1,16 +1,48 @@
-# React + Vite
+#  YouTube Clone – Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the YouTube Clone project built using **React** as part of a Full Stack MERN Capstone Project.  
+It consumes REST APIs from the backend to display videos, play videos, manage authentication, and show channels.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Tech Stack
 
-## React Compiler
+- **React (Vite)**
+- **React Router DOM**
+- **Axios**
+- **CSS (Responsive Grid Layout)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  User Login & Registration
+-  Display videos in a responsive grid
+-  Search videos by title
+-  Play videos using YouTube embed / HTML5 video
+-  Like & Dislike videos
+-  View channel information
+-  Fully responsive layout
+
+---
+
+##  Backend Connection
+
+The frontend communicates with the backend using **Axios**.
+
+**Base API URL** (configured in `api.js`):
+http://localhost:5000/api
+
+JWT tokens are stored in `localStorage` and automatically attached to requests.
+
+---
+
+##  Installation & Setup
+
+###  Clone the repository
+
+### Install dependencies 
+npm install
+
+### Start the development server
+npm run dev
