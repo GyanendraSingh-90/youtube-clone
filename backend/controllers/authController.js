@@ -44,3 +44,4 @@ export const loginUser = async (req, res) => {
     username: user.username
   });
 };
+
