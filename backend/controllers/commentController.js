@@ -17,3 +17,4 @@ export const deleteComment = async (req, res) => {
   await Comment.findByIdAndDelete(req.params.id);
   res.json({ message: "Comment deleted" });
 };
+

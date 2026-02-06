@@ -13,3 +13,4 @@ router.post("/", authMiddleware, addComment);
 router.delete("/:id", authMiddleware, deleteComment);
 
 export default router;
+
